@@ -3,9 +3,9 @@
 
 def display_board(board)
   row_separator = "-----------"
-  puts "#{board[0]}|#{board[1]}|#{board[2]}"
+  puts " #{board[0]} | #{board[1]} | #{board[2]} "
   puts "#{row_separator}"
-  puts "#{board[3]}|#{board[4]}|#{board[5]}"
+  puts " #{board[3]} | #{board[4]} | #{board[5]} "
   puts "#{row_separator}"
-  puts "#{board[6]}|#{board[7]}|#{board[8]}"
+  puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end 
